@@ -1,0 +1,566 @@
+.body {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+}
+
+.taskBar {
+    height: 95px;
+    background-color: #213162;
+    width: 1920px;
+}
+
+.logoImg {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    height: 45px;
+    width: 219px;
+    background-image: url(../img/logo2.png);
+    background-repeat: no-repeat;
+}
+
+.sections {
+    position: absolute;
+    width: 800px;
+    height: 80px;
+    top: 10px;
+    left: 650px;
+    color: black;
+}
+
+.sectionsTxt {
+    position: relative;
+    left: 10px;
+    top: 25px;
+    width: 120px;
+    font-size: 15pt;
+    font-family: sans-serif;
+    color: white;
+    float: left;
+}
+
+.information {
+    position: relative;
+    height: 1920px;
+    width: 1920px;
+    background-image: url(../img/slider-1.jpg);
+    background-repeat: no-repeat;
+}
+
+.infTxt1 {
+    position: absolute;
+    left: 60px;
+    top: 240px;
+    height: 130px;
+    width: 1000px;
+    font-size: 45pt;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.infTxt2 {
+    position: absolute;
+    left: 60px;
+    top: 400px;
+    width: 580px;
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.op1 {
+    position: relative;
+    left: 100px;
+    top: 700px;
+    width: 430px;
+    height: 370px;
+    border-bottom: 4px solid blue;
+    background-color: white;
+}
+
+.op2 {
+    position: absolute;
+    left: 600px;
+    top: 700px;
+    width: 430px;
+    height: 370px;
+    border-bottom: 4px solid blue;
+    background-color: white;
+}
+
+.op3 {
+    position: absolute;
+    left: 1100px;
+    top: 700px;
+    width: 430px;
+    height: 370px;
+    border-bottom: 4px solid blue;
+    background-color: white;
+}
+
+.op1Title {
+    position: absolute;
+    left: 158px;
+    top: 50px;
+    width: 250px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.op2Title {
+    position: absolute;
+    left: 140px;
+    top: 50px;
+    width: 250px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.op3Title {
+    position: absolute;
+    left: 140px;
+    top: 50px;
+    width: 250px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.op1Desc {
+    position: absolute;
+    left: 20px;
+    top: 140px;
+    width: 420px;
+    font-size: 18pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.op2Desc {
+    position: absolute;
+    left: 20px;
+    top: 140px;
+    width: 420px;
+    font-size: 18pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.op3Desc {
+    position: absolute;
+    left: 20px;
+    top: 140px;
+    width: 420px;
+    font-size: 18pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.op1Img {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    width: 54px;
+    height: 54px;
+    background-image: url(../img/WheelChair.png);
+    background-repeat: no-repeat;
+}
+
+.op2Img {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    width: 54px;
+    height: 54px;
+    background-image: url(../img/medical.png);
+    background-repeat: no-repeat;
+}
+
+.op3Img {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    width: 54px;
+    height: 54px;
+    background-image: url(../img/tube.png);
+    background-repeat: no-repeat;
+}
+
+.aboutUs {
+    position: absolute;
+    width: 1650px;
+    height: 850px;
+    top: 1400px;
+}
+
+.aboutUsImage {
+    position: relative;
+    width: 550px;
+    height: 620px;
+    left: 100px;
+    background-image: url(../img/about-image.png);
+    background-repeat: no-repeat;
+}
+
+.aboutUsTxt {
+    position: absolute;
+    left: 700px;
+    top: 14px;
+    width: 420px;
+    font-size: 30pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #44a6d6;
+}
+
+.aboutUsDesc {
+    position: absolute;
+    left: 700px;
+    top: 90px;
+    width: 600px;
+    font-size: 30pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.aboutUsDesc2 {
+    position: absolute;
+    left: 700px;
+    top: 230px;
+    width: 650px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.aboutUsDesc3 {
+    position: absolute;
+    left: 700px;
+    top: 450px;
+    width: 650px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.ul {
+    list-style-type: circle;
+}
+
+.members {
+    position: absolute;
+    width: 1910px;
+    height: 600px;
+    top: 2200px;
+    background-color: #2b3c6a;
+}
+
+.moreInfo {
+    position: absolute;
+    width: 1910px;
+    height: 600px;
+    top: 3180px;
+    background-color: #2b3c6a;
+}
+
+.membersTxt1 {
+    position: absolute;
+    left: 730px;
+    top: 70px;
+    width: 650px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.membersTxt2 {
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    width: 800px;
+    font-size: 35pt;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.member1 {
+    position: absolute;
+    left: 180px;
+    top: 380px;
+    width: 370px;
+    height: 384px;
+    border-bottom: 90px solid #3da3d4;
+    background-image: url(../img/team-01.jpg);
+    background-repeat: no-repeat;
+}
+
+.member2 {
+    position: absolute;
+    left: 650px;
+    top: 380px;
+    width: 370px;
+    height: 384px;
+    border-bottom: 90px solid #3da3d4;
+    background-image: url(../img/team-02.jpg);
+    background-repeat: no-repeat;
+}
+
+.member3 {
+    position: absolute;
+    left: 1100px;
+    top: 380px;
+    width: 370px;
+    height: 384px;
+    border-bottom: 90px solid #3da3d4;
+    background-image: url(../img/team-06.png);
+    background-repeat: no-repeat;
+}
+
+.memberSpeciality {
+    position: absolute;
+    left: 250px;
+    top: 770px;
+    width: 200px;
+    font-size: 20pt;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.memberSpeciality2 {
+    position: absolute;
+    left: 700px;
+    top: 770px;
+    width: 300px;
+    font-size: 20pt;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.memberSpeciality3 {
+    position: absolute;
+    left: 1140px;
+    top: 770px;
+    width: 300px;
+    font-size: 20pt;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.memberDescription {
+    position: absolute;
+    left: 250px;
+    top: 810px;
+    width: 200px;
+    font-size: 15pt;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.memberDescription2 {
+    position: absolute;
+    left: 750px;
+    top: 810px;
+    width: 200px;
+    font-size: 15pt;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.memberDescription3 {
+    position: absolute;
+    left: 1150px;
+    top: 810px;
+    width: 300px;
+    font-size: 15pt;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.infoLogo {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    width: 219px;
+    height: 45px;
+    background-image: url(../img/logo2.png);
+    background-repeat: no-repeat;
+}
+
+.infoTxt {
+    position: absolute;
+    left: 150px;
+    top: 210px;
+    width: 350px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    color: white;
+}
+
+.quickLinks {
+    position: absolute;
+    left: 520px;
+    top: 100px;
+    width: 350px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.linkList {
+    position: absolute;
+    left: 520px;
+    top: 170px;
+    width: 350px;
+    font-size: 15pt;
+    font-family: sans-serif;
+    color: white;
+}
+
+.ourContacts {
+    position: absolute;
+    left: 920px;
+    top: 100px;
+    width: 350px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.contactTxt {
+    position: absolute;
+    left: 922px;
+    top: 180px;
+    width: 200px;
+    font-size: 14pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.contactTxt2 {
+    position: absolute;
+    left: 922px;
+    top: 280px;
+    width: 200px;
+    font-size: 14pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.contactTxt3 {
+    position: absolute;
+    left: 922px;
+    top: 360px;
+    width: 200px;
+    font-size: 14pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.hours {
+    position: absolute;
+    left: 1260px;
+    top: 100px;
+    width: 350px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.hours1 {
+    position: absolute;
+    left: 1260px;
+    top: 150px;
+    width: 285px;
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.days {
+    position: absolute;
+    left: 1260px;
+    top: 200px;
+    width: 285px;
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.hours2 {
+    position: absolute;
+    left: 1460px;
+    top: 200px;
+    width: 285px;
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.extraInfo {
+    position: absolute;
+    left: 60px;
+    top: 500px;
+    width: 1550px;
+    font-size: 15pt;
+    color: white;
+    border-top: 2px solid white;
+}
+
+.copyRight {
+    position: absolute;
+    left: 60px;
+    top: 25px;
+    width: 1550px;
+    font-size: 18pt;
+    color: white;
+}
+
+.sectionsTxt2 {
+    position: relative;
+    left: 1150px;
+    top: 25px;
+    width: 120px;
+    font-size: 15pt;
+    font-family: sans-serif;
+    color: white;
+    float: left;
+}
